@@ -27,27 +27,15 @@
 .App-link {
   color: #61dafb;
 }
-nav.navbar {
-  background-color: #282c34 !important;
-  min-height: 10vh !important;
+.narbar {
+  background-color: #282c34;
+  min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center !important;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black !important;
-}
-nav.navbar a {
-  color: white !important;
-}
-nav.navbar a:hover {
-  color: #61dafb !important;
-}
-nav.navbar a.active {
-  color: #61dafb !important;
-}
-nav.navbar a.active:hover {
-  color: white !important;
+  color: white;
 }
 
 @keyframes App-logo-spin {

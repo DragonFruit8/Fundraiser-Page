@@ -43,12 +43,6 @@ nav.navbar a {
 nav.navbar a:hover {
   color: #61dafb !important;
 }
-nav.navbar a.active {
-  color: #61dafb !important;
-}
-nav.navbar a.active:hover {
-  color: white !important;
-}
 
 @keyframes App-logo-spin {
   from {

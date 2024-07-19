@@ -39,8 +39,8 @@ const HomeContainer = () => {
             <h1>Welcome to the Fundraiser Site</h1>
             <p className="lead">Donate to our cause and help us make the world a better place.</p>
             <div className="alert alert-info mt-4" role="alert">
-                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Register to Join The Community
+            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Register to Join The Community
                 </button>
             </div>
             {/* Create the rest of the homepage */}
@@ -53,7 +53,7 @@ const HomeContainer = () => {
 
             {/* Timeline title */}
             <div className="row justify-content-center align-items-center">
-                <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
+                <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>    
                     <h2 className="display-7">Fundraiser First Roadmap</h2>
                 </div>
             </div>
@@ -73,9 +73,9 @@ const HomeContainer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block"></div>
-                </div>
-            </div>
+                    <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+                    </div>  
+    </                
 
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">

@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-nav.navbar {
+.navbar {
   background-color: #282c34 !important;
   min-height: 10vh !important;
   display: flex;
@@ -36,18 +36,6 @@ nav.navbar {
   justify-content: center !important;
   font-size: calc(10px + 2vmin);
   color: black !important;
-}
-nav.navbar a {
-  color: white !important;
-}
-nav.navbar a:hover {
-  color: #61dafb !important;
-}
-nav.navbar a.active {
-  color: #61dafb !important;
-}
-nav.navbar a.active:hover {
-  color: white !important;
 }
 
 @keyframes App-logo-spin {

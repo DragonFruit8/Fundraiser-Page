@@ -6,7 +6,7 @@ import Donate from './pages/Donate';
 import Admin from './pages/Admin';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar';
-import './App.css';
+import 
 
 const App = () => {
   return (

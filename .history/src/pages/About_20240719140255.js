@@ -110,9 +110,9 @@ const About = () => {
     return (
         <AboutContainer>
             <div className="container col h-100 justify-content-center align-items-center">
-                <h1 className="text-start">About Our Organization</h1>
+                <h1 className="text-center">About Our Organization</h1>
                 <div className="row justify-content-center align-items-center">
-                    <div className="col-md-12 my-5 text-start" style={{ textAlign: 'center' }}>
+                    <div className="col-md-6" style={{ textAlign: 'center' }}>
                         <p>Welcome to our organization's about page!</p>
                         <p>We are dedicated to making a positive impact in our community.</p>
                         <p>
@@ -122,16 +122,10 @@ const About = () => {
                         <p>Join us in making a difference!</p>
                     </div>
                 </div>
-                <div className="row justify-content-center align-items-center">
-                    <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                        <h2 className="display-7">Our Mission</h2>
+                <div className="row justify-content-center align-items-center display-4">
+                    <div className="col-md-12 display-5 text-start" style={{ textAlign: 'center' }}>
+                        <h2>Our Mission</h2>
                         <p>Our mission is to make the world a better place by supporting causes that matter.</p>
-                    </div>
-                </div>
-                {/* Timeline title */}
-                <div className="row justify-content-center align-items-center">
-                    <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                        <h2 className="display-7">Fundraiser First Roadmap</h2>
                     </div>
                 </div>
                 <div className="row justify-content-center align-items-center">

@@ -131,7 +131,7 @@ const About = () => {
                 {/* Timeline title */}
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                        <h2 className="display-7">Fundraiser First Roadmap</h2>
+                        <h2 className="display-7">Fundraiser First </h2>
                     </div>
                 </div>
                 <div className="row justify-content-center align-items-center">

@@ -125,13 +125,7 @@ const About = () => {
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
                         <h2 className="display-7">Our Mission</h2>
-                        <p>Our mission is to make the world a better place by supporting causes that matter.</p>
-                    </div>
-                </div>
-                {/* Timeline title */}
-                <div className="row justify-content-center align-items-center">
-                    <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                        <h2 className="display-7">Fundraiser First Roadmap</h2>
+                        <p>Our mission is to make thed world a better place by supporting causes that matter.</p>
                     </div>
                 </div>
                 <div className="row justify-content-center align-items-center">

@@ -37,18 +37,7 @@ nav.navbar {
   font-size: calc(10px + 2vmin);
   color: black !important;
 }
-nav.navbar a {
-  color: white !important;
-}
-nav.navbar a:hover {
-  color: #61dafb !important;
-}
-nav.navbar a.active {
-  color: #61dafb !important;
-}
-nav.navbar a.active:hover {
-  color: white !important;
-}
+
 
 @keyframes App-logo-spin {
   from {

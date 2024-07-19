@@ -39,42 +39,9 @@ const HomeContainer = () => {
             <h1>Welcome to the Fundraiser Site</h1>
             <p className="lead">Donate to our cause and help us make the world a better place.</p>
             <div className="alert alert-info mt-4" role="alert">
-                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Register to Join The Community
+            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Register
                 </button>
-            </div>
-            {/* Create the rest of the homepage */}
-            <div className="row justify-content-center align-items-center">
-                <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                    <h2 className="display-7">Our Mission</h2>
-                    <p>Our mission is to make the world a better place by supporting causes that matter.</p>
-                </div>
-            </div>
-
-            {/* Timeline title */}
-            <div className="row justify-content-center align-items-center">
-                <div className="col-md-12 display-6 text-start" style={{ textAlign: 'center' }}>
-                    <h2 className="display-7">Fundraiser First Roadmap</h2>
-                </div>
-            </div>
-
-            <div className="row justify-content-center align-items-center">
-                <div className="container py-5 timeline position-relative">
-                    <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-                        <div className="timeline-img"></div>
-                        <div className="timeline-content">
-                            <p className="lead">Step Date</p>
-                            <h2 className="fw-bold rfs-12">Step Name</h2>
-                            <div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus,
-                                    lobortis non augue at, placerat viverra risus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block"></div>
-                </div>
             </div>
 
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -94,7 +61,7 @@ const HomeContainer = () => {
                                 </p>
                             </div>
                             <div className="card mt-4">
-                                <div className="card-body text-start">
+                                <div className="card-body">
                                     <h5 className="card-title">Join our Community of Helpful individuals</h5>
                                     <form onSubmit={handleSubmit}>
                                         <div className="mb-3">
