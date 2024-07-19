@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-// import axios from 'axios';
+import axios from 'axios';
 
 const DonateContainer = styled.div`
   text-align: center;
@@ -37,7 +37,7 @@ const Donate = () => {
                         <div className="lc-block">
                             {/* // eslint-disable-next-line jsx-a11y/img-redundant-alt */}
 
-                            <img className="w-100" alt='beach' src="https://images.unsplash.com/photo-1523572989266-8239d24ebb68?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8fHwxNzAzMDc0MzIzfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=768" srcset="" sizes="" width="" height="" alt="Photo by Photographer Frederik Trovatten" loading="lazy" />
+                            <img className="w-100" alt='beach' src="https://images.unsplash.com/photo-1523572989266-8239d24ebb68?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8fHwxNzAzMDc0MzIzfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=768" srcset="" sizes="" width="" height="" alt=Photo by Photographer Frederik Trovatten` loading="lazy" />
                         </div>
                     </div>
                     <div className="col-lg-6">

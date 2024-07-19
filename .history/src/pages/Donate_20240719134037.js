@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-// import axios from 'axios';
+import axios from 'axios';
 
 const DonateContainer = styled.div`
   text-align: center;
